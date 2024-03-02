@@ -15,7 +15,7 @@
   
   
   
-  var isloading = 0
+  var isloading = 1
   var cloudsis=1
   
   
@@ -72,7 +72,7 @@ function warn2(message) {
     <style>
     dvt{
       position :fixed ;
-      background-image: url('pano.png'); /* Dodaj ścieżkę do swojego obrazu panoramy */
+      background-image: url('./pano.png'); /* Dodaj ścieżkę do swojego obrazu panoramy */
             background-size: 100%;
             background-position: center;
             width :100%;
@@ -433,7 +433,7 @@ scale :2.0
 }
 .menu div{
   width :calc(100% - 10px);
-  background :url('/button.png');
+  background :url('./button.png');
   background-size: 100%;
   background-repeat: no-repeat ;
  padding: 5px;
@@ -677,7 +677,7 @@ updateInventory()
     
     
 </div>
-    <script src="/three.js"></script>
+    <script src="./three.js"></script>
     <script>
 
 // Pobierz element div licznika FPS
